@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBCB"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".Simple">
+
+    <TextView
+        android:id="@+id/text_exp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|end"
+        android:paddingRight="20dp"
+        android:text=""
+        android:textColor="@color/purple_700"
+        android:textSize="@dimen/text2" />
+
+    <TextView
+        android:id="@+id/text_number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center|end"
+        android:paddingRight="20dp"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="@dimen/text1"
+        android:maxLength="14"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Button
+                style="@style/b_calculation"
+                android:layout_width="match_parent"
+                android:onClick="allclear"
+                android:text="AC" />
+
+            <Button
+                style="@style/b_number"
+                android:text="7"
+                android:onClick="click7"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="4"
+                android:onClick="click4"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="1"
+                android:onClick="click1"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="+/-"
+                android:onClick="click_plusminus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Button
+                style="@style/b_calculation"
+                android:text="C"
+                android:onClick="clear"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="8"
+                android:onClick="click8"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="5"
+                android:onClick="click5"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="2"
+                android:onClick="click2"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="0"
+                android:onClick="click0"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Space
+                style="@style/b_calculation"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="9"
+                android:onClick="click9"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="6"
+                android:onClick="click6"/>
+
+            <Button
+                style="@style/b_number"
+                android:text="3"
+                android:onClick="click3"/>
+
+            <Button
+                style="@style/b_number"
+                android:onClick="click_point"
+                android:text="." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Space
+                style="@style/b_calculation" />
+
+            <Button
+                style="@style/b_calculation"
+                android:text="/"
+                android:onClick="division"/>
+
+            <Button
+                style="@style/b_calculation"
+                android:text="*"
+                android:onClick="multiplication"/>
+
+            <Button
+                style="@style/b_calculation"
+                android:text="-"
+                android:onClick="subtract"/>
+
+            <Button
+                style="@style/b_calculation"
+                android:text="+"
+                android:onClick="addition"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Space
+                style="@style/b_calculation"
+                android:layout_weight="3"/>
+
+            <Button
+                style="@style/b_number"
+                android:layout_weight="2"
+                android:text="="
+                android:onClick="equal"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

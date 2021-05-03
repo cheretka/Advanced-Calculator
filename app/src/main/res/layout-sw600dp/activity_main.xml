@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBCB"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Calculator"
+        android:textColor="@color/purple_700"
+        android:textSize="@dimen/text1"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/purple_700"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <Button
+            style="@style/b_main"
+            android:text="Simple"
+            android:onClick="fun_simple"/>
+
+        <Button
+            style="@style/b_main"
+            android:text="Advanced"
+            android:onClick="fun_advanced"/>
+
+        <Button
+            style="@style/b_main"
+            android:text="About"
+            android:onClick="fun_about"/>
+
+        <Button
+            style="@style/b_main"
+            android:text="Exit"
+            android:background="@color/white"
+            android:textColor="@color/purple_700"
+            android:onClick="fun_exit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
