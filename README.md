@@ -1,12 +1,15 @@
-# Simple and Advanced **calculator**
+# Simple and Advanced **Calculator**
 
 The aim is to provide the functionality of the calculator which, depending on the user's choice, will allow to perform basic or advanced calculations.
 
-1) Simple or advanced calculator type selection.
+# Main menu
+Simple or advanced calculator type selection.
 
 <img src="/1.PNG" width="300">
 
-2) The simple version of the calculator should enable the performance of basic mathematical operations:
+
+# The simple Calculator
+The simple version of the calculator should enable the performance of basic mathematical operations:
     - Four basic operations: addition(+), subtraction(-), multiplication (*), division (/).
     - Changing the sign of a number (+/-)
     - Clear enter / clear
@@ -16,8 +19,11 @@ The aim is to provide the functionality of the calculator which, depending on th
 <img src="/2.PNG" width="300"> <img src="/3.PNG" width="300"> 
 
 <img src="/4.PNG" width="300"> <img src="/5.PNG" width="300">
- 
-3) The advanced version of the calculator, in addition to the basic ones, should also implement more advanced operations, including the mandatory:
+
+
+# The advanced Calculator
+
+The advanced version of the calculator, in addition to the basic ones, should also implement more advanced operations, including the mandatory:
     - Trigonometric functions: sine (sin) cosine (cos) tangent (tan)
     - Logarithmic functions: natural logarithm (ln) logarithm (log)
     - Calculation of percentages (%)
