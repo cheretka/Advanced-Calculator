@@ -16,9 +16,9 @@ The simple version of the calculator should enable the performance of basic math
  - All clear (AC)
  - Operation result display (=)
  
-<img src="/2.PNG" width="300"> <img src="/3.PNG" width="300"> 
+<img src="/2.PNG" width="300">   <img src="/3.PNG" width="300"> 
 
-<img src="/4.PNG" width="300"> <img src="/5.PNG" width="300">
+<img src="/4.PNG" width="300">   <img src="/5.PNG" width="300">
 
 
 # The advanced Calculator
@@ -30,7 +30,7 @@ The advanced version of the calculator, in addition to the basic ones, should al
  - Root (sqrt)
  - Exponentiation (x ^ 2) (x ^ y)
  
-<img src="/6.PNG" width="300"> <img src="/9.PNG" width="300"> 
+<img src="/6.PNG" width="300">   <img src="/9.PNG" width="300"> 
 
-<img src="/7.PNG" width="300"> <img src="/8.PNG" width="300">
+<img src="/7.PNG" width="300">   <img src="/8.PNG" width="300">
  
