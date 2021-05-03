@@ -1,4 +1,4 @@
-# Simple and Advanced calculator
+# Simple and Advanced **calculator**
 
 The aim is to provide the functionality of the calculator which, depending on the user's choice, will allow to perform basic or advanced calculations.
 
