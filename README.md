@@ -4,7 +4,7 @@ The aim is to provide the functionality of the calculator which, depending on th
 
 1) Simple or advanced calculator type selection.
 
-![](/1.PNG)
+<img src="/1.PNG" width="300">
 
 2) The simple version of the calculator should enable the performance of basic mathematical operations:
     - Four basic operations: addition(+), subtraction(-), multiplication (*), division (/).
@@ -13,8 +13,9 @@ The aim is to provide the functionality of the calculator which, depending on th
     - All clear (AC)
     - Operation result display (=)
  
-![](/2.PNG) ![](/3.PNG)
-![](/4.PNG) ![](/5.PNG)
+<img src="/2.PNG" width="300"> <img src="/3.PNG" width="300"> 
+
+<img src="/4.PNG" width="300"> <img src="/5.PNG" width="300">
  
 3) The advanced version of the calculator, in addition to the basic ones, should also implement more advanced operations, including the mandatory:
     - Trigonometric functions: sine (sin) cosine (cos) tangent (tan)
@@ -22,6 +23,8 @@ The aim is to provide the functionality of the calculator which, depending on th
     - Calculation of percentages (%)
     - Root (sqrt)
     - Exponentiation (x ^ 2) (x ^ y)
-    
-![](/6.PNG) ![](/7.PNG)
-![](/8.PNG) ![](/9.PNG)
+ 
+<img src="/6.PNG" width="300"> <img src="/9.PNG" width="300"> 
+
+<img src="/7.PNG" width="300"> <img src="/8.PNG" width="300">
+ 
